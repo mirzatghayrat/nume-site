@@ -1,11 +1,25 @@
 # NUME official website
 
-Official website, support and privacy policy for NUME, a hand-drawn puzzle adventure by Mierzati Aireti.
+Official website, support page and privacy policy for **NUME**, a hand-drawn math puzzle adventure for iPhone and iPad by Mierzati Aireti.
 
-Website: https://mirzatghayrat.github.io/nume-site/
+- Website: https://mirzatghayrat.github.io/nume-site/
+- Support: https://mirzatghayrat.github.io/nume-site/support/
+- Privacy policy: https://mirzatghayrat.github.io/nume-site/privacy/
+- Contact: mirzatghayrat@gmail.com
 
-Support: mirzatghayrat@gmail.com
+## What this is
 
-This repository contains only the published static website. It has no server, analytics, third-party scripts, or application source code. Fonts and media are served locally. Asset license records are included in `assets`.
+Three hand-written static pages plus one stylesheet. No build step, no server, no analytics, no third-party scripts. Fonts and media are served from this repository; license records live next to the assets:
 
-The game is preparing for release. Store availability will be added after publication.
+| Asset | Source | License |
+|---|---|---|
+| `assets/CaveatBrush-Regular.ttf` | Caveat Brush | `assets/OFL-CaveatBrush.txt` (SIL OFL 1.1) |
+| `assets/SpaceMono-Bold.ttf` | Space Mono | `assets/OFL-SpaceMono.txt` (SIL OFL 1.1) |
+| `assets/nume-preview.mp4` music | MintoDog, OpenGameArt | `assets/MUSIC-LICENSE.md` (CC0 1.0) |
+| `assets/shots/*.jpg` | Native NUME screenshots (build 1.0.0), also used on the App Store | © Mierzati Aireti |
+
+## Editing
+
+Edit the HTML directly and push to `main`; GitHub Pages serves the repository root. Links are relative so the pages also open from a local folder. The privacy policy text must stay identical to the copy inside the app (`PrivacyPolicyView`) and to the App Store privacy declaration; change all three together and update the effective date.
+
+When the app is live, replace the "Coming to the App Store" key in `index.html` (search for `store-link`) with the App Store link.
