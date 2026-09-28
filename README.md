@@ -2,10 +2,10 @@
 
 Official website, support page and privacy policy for **NUME**, a hand-drawn math puzzle adventure for iPhone and iPad by Mierzati Aireti.
 
-- Website: https://mirzatghayrat.github.io/nume-site/
-- Support: https://mirzatghayrat.github.io/nume-site/support/
-- Privacy policy: https://mirzatghayrat.github.io/nume-site/privacy/
-- Contact: mirzatghayrat@gmail.com
+- Website: https://aralem.dev/nume-site/
+- Support: https://aralem.dev/nume-site/support/
+- Privacy policy: https://aralem.dev/nume-site/privacy/
+- Contact: support@aralem.dev
 
 ## What this is
 
